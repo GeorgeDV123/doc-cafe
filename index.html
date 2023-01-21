@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/media.css" />
     <script src="/script.js" defer></script>
   </head>
   <body>
@@ -47,25 +48,45 @@
         <img src="/imgs/menu.jpg" />
       </section>
 
+      <!-- Gallery -->
       <section class="food-imgs siema">
-        <img src="/imgs/food1.jpg" />
-        <img src="/imgs/food2.jpg" />
-        <img src="/imgs/food3.jpg" />
+        <img src="/imgs/food1.jpg" class="m-l" />
+        <img src="/imgs/food2.jpg" class="m-r" />
+        <img src="/imgs/food3.jpg" class="m-l" />
       </section>
     </main>
 
     <footer>
+      <!-- Contact info -->
       <div class="contact">
-        <p>Monday to Sunday 6am - 12pm</p>
-        <p>2/318 Montague Rd, West End QLD 4101</p>
         <p>
-          <a><img />Facebook</a>
+          Monday to Sunday<br />
+          6am - 12pm
         </p>
+        <br />
         <p>
-          <a><img />Instagram</a>
+          2/318 Montague Rd<br />
+          West End QLD 4101
         </p>
+        <span>
+          <a><img src="/imgs/facebook-icon.svg" />Facebook</a>
+        </span>
+        <span>
+          <a><img src="/imgs/instagram-icon.svg" />Instagram</a>
+        </span>
       </div>
-      <div>google maps here</div>
+      <!-- Google maps -->
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14158.43935793998!2d153.004718!3d-27.4814035!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x46ef74596e7db0e9!2sLonelys!5e0!3m2!1sen!2sau!4v1674288000753!5m2!1sen!2sau"
+          width="90%"
+          height="80%"
+          style="border: 0; margin: auto"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </footer>
   </body>
 </html>

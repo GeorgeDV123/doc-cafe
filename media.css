@@ -1,0 +1,63 @@
+/* Media Queries */
+
+@media (min-width: 320px) and (max-width: 768px) {
+  /* Navbar */
+  nav ul li a {
+    font-size: 90%;
+  }
+
+  nav {
+    padding: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  nav img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  /* Menu Area */
+  .menu-area {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .menu-area img {
+    border: none;
+  }
+
+  /* Food Images */
+
+  .food-imgs {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    padding: 3rem;
+  }
+
+  .food-imgs img {
+    width: 80%;
+    border-radius: 20px;
+    height: 300px;
+  }
+
+  .m-l {
+    margin-left: auto;
+  }
+
+  .m-r {
+    margin-right: auto;
+  }
+
+  /* Contact */
+
+  .contact {
+    font-size: 0.8rem;
+  }
+
+  .contact span a {
+    padding: 3px;
+  }
+}
+
