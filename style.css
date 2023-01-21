@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap');
+
+*, html {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+}
+
+:root {
+  --color1: #ECB7DA;
+  --color2: #6E326E;
+  --color3: #EBF6E5;
+}
+
+/* Header + Navbar */
+
+header {
+  background: url('/imgs/hero.jpg') no-repeat fixed ;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+nav {
+  background-color: rgba(236, 183, 218, 0.9);
+  width: 100%;
+  padding: 2rem;
+}
+
+nav img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+nav ul li a {
+  font-size: 1.3rem;
+}
+
+/* About */
+
+.about {
+  background-color: var(--color1);
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.about p {
+  max-width: 70%;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 3rem;
+}
+
+.about button {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Menu Area */
+
+.menu-area {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  max-width: 70%;
+  padding: 3rem;
+}
+
+.menu-area img {
+  width: 100%;
+  border: 0.5rem dotted var(--color1);
+}
+
+/* Food Images */
+
+.food-imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80%;
+  background-color: var(--color1);
+
+}
+
+.food-imgs img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 45% 45%;
+}
+
+
+
